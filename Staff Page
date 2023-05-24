@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Staff page </title>
+	<link rel="stylesheet" href="CSSweb.css">
+</head>
+
+<body>
+
+ <div class="navbar">
+ <img src="logo.png" class="hello">
+ 
+ <div class="pete">
+  <a href="./Home Page.html">Home</a>
+  <a href="./Staff Page.html">Staff Page</a>
+  <a href="./Contact Page.html">Contact Page</a>
+  <a href="./Apply Page.html">Apply Page</a>
+  <a href="./Course Page.html">Course Page</a>
+  </div> 
+</div>
+
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery - image size by side can be clicked on // as a source as well 
+
+
+
+
+
+
+<footer>
+<footer-text>
+Instagram: HotBeansWeb
+Twitter:@hotbeansweb
+
+Location: LE1 7GH
+</footer-text>
+
+</footer>
+
+</body>
+
+</html>

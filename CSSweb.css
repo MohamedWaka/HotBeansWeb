@@ -1,0 +1,331 @@
+#find{
+    border: 10px red dashed;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #66ff66;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+.pete{
+	margin-left:105px;
+}
+
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 39px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 15%;
+  border: 0px solid #999;
+
+
+
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.navbar {
+	font-family: san-serif, calibri;
+}
+
+.hello{
+	position: absolute;
+	height: 105px;
+	left: 0px;
+	width: auto;
+	float: left;
+	margin:0px;
+}
+
+footer-text{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #66ff66;
+  color: white;
+  text-align: center;
+  height: 50px;
+  font-family: san-serif, calibri;
+  font-size: 20px;
+  color: black;
+}
+
+
+body{
+	background-color:#808080;
+}
+
+
+/*comes from W3 schools "image Side by Side*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*w3 schools: https://www.w3schools.com/css/css_padding.asp */
+.row{
+	padding-top:100px;
+}
+
+
+#Main1{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.about{
+    text-align: center;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: san-serif, calibri;
+}
+p1{
+	color:white;
+}
+
+#Main2{
+	font-family: san-serif, calibri;
+	color: white;
+	text-align: center; 
+}
+
+/* change the color of hte links*/
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.contactpage{
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+
+table{
+	border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+	width: 75%;
+	font-family: san-serif, calibri;
+	font-size: 30px;
+	padding-top: 0px;
+}
+
+td,th{
+	text-align: center;
+	padding: 10px;
+	border: 2px solid black;
+	color: white;
+	background-color: grey;
+}
+
+
+
+#image{
+	position: absolute; /*source of the code = https://forum.freecodecamp.org/t/move-image-to-the-right-side/163034*/
+	right: 0%;
+	top:150px;
+	width:700px;
+}
+
+h1, h2, h3{
+	font-family:san-serif, calibri;
+	color:white;
+	font-size:20px;
+	text-decoration: underline;
+}
+
+para1, para2{
+	font-family:san-serif, calibri;
+	font-size: 18px;
+	color:white;
+	display: inline;
+}
+
+
+#local{
+	text-align: center;
+	margin-left: 40%;
+	margin-right: 60%;
+	padding-top:200px;
+	width: 700px;
+	height:700px;
+}
+
+
+.paragraphs{
+	padding-left: 70px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+ 
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #203b4c;
+  padding: 20px;
+  color: white;
+}
+
+
+
+.Submit{
+	text-align: center;
+	padding-top:180px;
+	font-family: san-serif, calibri;
+	font-size: 100px;
+	color:white;
+}
+
+
+tr{
+	color: white;
+}
+
+
+
+.staffpage{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 120px;
+}
+
+
+div.gallery {
+    padding: 5px;
+    display: inline-block;   
+    border: 1px solid black;
+    width: 25%;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-family: san-serif, calibri;
+  font-size: 30px;
+}
+
+
+
+ .container {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+		border: 10px solid black;
+     margin-top: 150px;
+     margin-left: 200px;
+     margin-right: 200px;
+ 
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 100%
+      }
+      .text {
+        font-size: 20px;
+        padding-left: 40px;
+      }
+
+
+h4{
+	color:white;
+	font-family: san-serif, calibri;
+	font-size:20px;
+    
+}
+
+
+h5{
+	color:white;
+	font-family: san-serif, calibri;
+	font-size:20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 10px;
+    border: 5px solid black;
+}
+

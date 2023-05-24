@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apply page </title>
+	<link rel="stylesheet" href="CSSweb.css">
+</head>
+
+<body>
+
+ <div class="navbar">
+ <img src="logo.png" class="hello">
+ 
+ <div class="pete">
+  <a href="./Home Page.html">Home</a>
+  <a href="./Staff Page.html">Staff Page</a>
+  <a href="./Contact Page.html">Contact Page</a>
+  <a href="./Apply Page.html">Apply Page</a>
+  <a href="./Course Page.html">Course Page</a>
+  </div> 
+</div>
+
+
+<section style="position : fixed; top: 20vh;">
+
+<form action="submit.php" method="post">
+<fieldset><legend>Personal Information</legend>
+<div>
+	<label for="name">Full Name:</label>
+	<input type="text" id="name" name="name" required>
+</div>
+<div>
+	<label for="age">Age: </label>
+	<input type="text" id ="age" age="age" required>
+</div>
+<div>
+	<label for="gender">Gender:</label>
+	<select id="gender" name="gender">
+		<option value="male">Male</option>
+		<option value="female">Female</option>
+		<option value="other">Other</option>
+	</select>
+</div>
+
+<div>
+<div>
+	<input type="checkbox" id="Jdeveloper" name="Jdeveloper" value ="Jdeveloper">
+	<label for="Jdeveloper"> Junior Developer</label>
+</div>
+	<input type="checkbox" id="Sdeveloper" name="Sdeveloper" value ="Sdeveloper">
+	<label for="Sdeveloper"> Senior Developer</label>
+<div>
+	<input type="checkbox" id="Engineer" name="Engineer" value ="Engineer">
+	<label for="Engineer"> Engineer</label>
+</div>
+	<input type="checkbox" id="Wdesigner" name="Wdesigner" value ="Wdesigner">
+	<label for="Wdesigner"> Web Designer</label>
+<div>
+	<input type="checkbox" id="SStaff" name="SStaff" value ="SStaff">
+	<label for="SStaff"> Support Staff</label>
+</div>	
+</div>
+
+
+
+
+
+
+</fieldset>
+</form>
+
+
+	
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+<footer-text>
+Instagram: HotBeansWeb
+Twitter:@hotbeansweb
+
+Location: LE1 7GH
+</footer-text>
+
+</footer>
+</body>
+</html>
